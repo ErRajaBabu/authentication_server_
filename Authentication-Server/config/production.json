@@ -1,0 +1,14 @@
+{
+  "serverOwner": "Owner",
+  "hashAlgorithm": "sha512", // Use better than MD5
+  "secret": "Change this not secret token", // CHANGE THIS LINE TO SOMETHING RANDOM
+  "certification": {
+    "country": "HU",
+    "state": "Budapest",
+    "organization": "Rutkai",
+    "organizationUnit": "Single developer",
+    "emailAddress": "mail@mail.com"
+  },
+  "users": [
+  ]
+}

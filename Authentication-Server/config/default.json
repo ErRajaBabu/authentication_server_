@@ -1,0 +1,40 @@
+{
+  "serverOwner": "Developer",
+  "serverDomain": "authserver.mojang.com",
+  "timestampFormat": "YYYY-MM-DD HH:mm:ss| ",
+  "hashAlgorithm": "md5",
+  "secret": "Dev token",
+  "authserver": {
+    "httpPort": 9000,
+    "httpsPort": 9001,
+    "certification": {
+      "days": 365,
+      "selfSigned": true,
+      "commonName": "authserver.mojang.com"
+    }
+  },
+  "sessionserver": {
+    "httpPort": 9010,
+    "httpsPort": 9011,
+    "certification": {
+      "days": 365,
+      "selfSigned": true,
+      "commonName": "sessionserver.mojang.com"
+    }
+  },
+  "apiserver": {
+    "httpPort": 9020,
+    "httpsPort": 9021,
+    "certification": {
+      "days": 365,
+      "selfSigned": true,
+      "commonName": "apiserver.mojang.com"
+    }
+  },
+  "drivers": ["config", "mongodb"],
+  "mongodb": {
+    "connectionStr": "mongodb://localhost:27017/mjolnir"
+  },
+  "users": [
+  ]
+}
