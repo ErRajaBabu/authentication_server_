@@ -1,5 +1,5 @@
 # authentication_server_
-Mjölnir authentication is fully compatible with Yggdrasil authentication which is used by Minecraft and other Mojang apps. However, Mjölnir is developed for replacing the authentication system of Minecraft in case you want an own authentication server.
+authentication_server_ is fully compatible with Yggdrasil authentication which is used by Minecraft and other Mojang apps. However, Mjölnir is developed for replacing the authentication system of Minecraft in case you want an own authentication server.
 
 Features (planned):
 
